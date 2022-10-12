@@ -1,0 +1,9 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #cfcfcf;
+  padding: 5% 10%;
+}
+ul li {
+  list-style: none;
+}
