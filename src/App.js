@@ -8,11 +8,11 @@ function getUserInfo(jsonText) {
   console.log(jsonProp);
 }
 
-fetch("https://jsonplaceholder.typicode.com/users/")
-  .then((response) => response.json())
-  .then((json) => {
-    const jsonTest = getUserInfo(json);
-  });
+// fetch("https://jsonplaceholder.typicode.com/users/")
+//   .then((response) => response.json())
+//   .then((json) => {
+//     const jsonTest = getUserInfo(json);
+//   });
 
 const App = () => {
   const stories = [
